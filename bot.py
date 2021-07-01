@@ -5,11 +5,14 @@ from json import load
 # Locals
 from os import listdir
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or(";"))
-
 # Load Configs
 with open("config.json", "r") as f:
     config = load(f)
+
+
+bot = commands.Bot(command_prefix=commands.when_mentioned_or(config["prefix"]))
+
+
 
 @bot.event
 async def on_ready():
