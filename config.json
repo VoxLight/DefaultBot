@@ -1,4 +1,5 @@
 {
+    "status":"with the API",
     "login":{
         "token":"token-goes-here",
         "oauth":"https://discordapp.com/api/oauth2/authorize?client_id=619826420171931648&permissions=8&scope=bot"
