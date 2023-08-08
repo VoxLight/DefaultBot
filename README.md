@@ -10,3 +10,7 @@ Adding cogs is easy, follow the outline of the ./cogs/basic.py cog for a templat
 Simply add a new cog into the cogs folder and the bot will automatically add it when it's launched.
 
 Additionally, cog_manager adds functionalities of loading/unloading cogs so you don't have to restart the bot every time.
+
+
+
+I updated this. Find the new and improved 2023 version here: https://github.com/VoxLight/NextcordBotTemplate
